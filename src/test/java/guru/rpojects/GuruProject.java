@@ -15,7 +15,7 @@ public class GuruProject {
 
     @BeforeTest
     public void setUp(){
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\mkaniecki\\Documents\\TESTY\\automat\\Guru_Project");
+        System.setProperty("webdriver.gecko.driver","directory here");
         driver.manage().window().maximize();
     }
 
